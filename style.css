@@ -352,6 +352,38 @@ nav-bar-top{
 
 
 
+/* * product slider */
+
+.slider-container{
+    background-color: #E2E6E7;
+}
+
+.products-container{
+    background: #E2E6E7;
+
+}
+
+.products-slider{
+    margin: 0 12px;
+    background-color: white;
+    padding: 20px;
+}
+
+.products-slider .products{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product-slider .products img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.products-slider .products::-webkit-scrollbar{
+    display: none;
+}
 
 
 

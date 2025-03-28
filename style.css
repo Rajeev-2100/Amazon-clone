@@ -115,7 +115,7 @@ nav-bar-top{
 .nav-search-category{
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
     gap: 5px;
     border: 1px solid #cdcdcd;
     background: #e5e5e5;
@@ -130,7 +130,7 @@ nav-bar-top{
 }
 
 .nav-search-icon{
-    max-width: 46px;
+    max-width: 54px;
     padding: 5px;
     background: #ffd64f;
     border-radius: 0 4px 4px 0;
@@ -439,9 +439,12 @@ nav-bar-top{
     height: 124px;
 }
 
-.a_footer{
-    padding: 0px 22px; 
-    margin-bottom: 2%;
-    margin-top: 12%;
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
 }
 
